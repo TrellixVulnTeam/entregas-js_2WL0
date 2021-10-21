@@ -44,9 +44,11 @@ let botonNuevoJuego = document.getElementById(`btn-nuevo-juego`);
 botonNuevoJuego.addEventListener('click', function(){
 
   setBotonesNuevoJuego();
-  checkDisableButtonsPuntos();
   mostrarCartasInit();
   storageInfoInit();
+  
+  checkDisableButtonsPuntos();
+  mostrarPuntos();
 
 });
 
